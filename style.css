@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    margin: 4px 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 6%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6%;
+}
+ul{
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    gap:20px;
+}
+li{
+    padding:0px;
+    list-style-type: none;
+   }
+a{
+    text-decoration: none;
+}
+
+.awesome-text,.random-info,.quote,.action {
+    height: 25%;
+}
