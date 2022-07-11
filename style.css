@@ -2,25 +2,45 @@ body {
     height: 100vh;
     display: flex;
     flex-direction:column;
-    margin: 4px 150px;
+}
+div{
+    padding: 4px 150px; 
+}
+.left-side,.right-side,.logo,.image,.text{
+    padding: 0px;
+}
+
+.text {
+    padding-bottom: 50px;
+    
+}
+
+.awesome-text > .image{
+    height:188px ;
+    width: 50%;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     height: 6%;
+    background-color: #1f2937;
+    color:#f9faf8;    
+    font-size: 24px;
 }
-.container{
+/*.container{
     display: flex;
     flex-direction: column;
     height: 100%;
-}
+}*/
 
 .footer{
+    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 6%;
+    color:#f9faf8;
 }
 ul{
     padding:0px;
@@ -31,11 +51,80 @@ ul{
 li{
     padding:0px;
     list-style-type: none;
+    color: #e5e7eb;
+    font-size: 18px;
    }
 a{
     text-decoration: none;
+    color:#e5e7eb;
 }
 
 .awesome-text,.random-info,.quote,.action {
     height: 25%;
+}
+
+.awesome-text> .text {
+    font-size: 48px;
+    font-weight:900;
+    color:#f9faf8;
+    width: 50%;
+    
+}
+
+div.text > p {
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: normal;
+}
+
+.awesome-text{
+    background-color: #1f2937;
+    display: flex;
+    
+}
+.awesome-text > .image{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color:#3882f6;
+    color:#f9faf8;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    padding:5px 20px;
+}
+
+.text>button {
+    border:none;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color:#1f2937;
+    font-style: oblique 5deg;
+    font-weight:100;
+}
+.quote > p {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.action-text {
+    display: flex;
+    background-color:#3882f6;
+    color:#f9faf8;
+    
+    
+    width: 100%;
+    padding: 20px 50px;
+   
+}
+.action-text>p{
+    margin:0px;
+    font-size:smaller;
 }
