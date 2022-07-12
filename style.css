@@ -21,6 +21,10 @@ div{
     height:156.48px ;
     width: 50%;
 }
+.image-holder > img {
+    height: 157px;
+    width: 900px;
+}
 
 .header {
     display: flex;
@@ -93,13 +97,14 @@ button {
     border-color: #f9faf8;
     border-radius: 8px;
     padding:5px 20px;
+    flex-shrink: 0;
 }
 
 .text>button {
     border:none;
 }
 
-.quote {
+.quote {    
     background-color: #e5e7eb;
     font-size: 36px;
     color:#1f2937;
@@ -152,6 +157,7 @@ button {
 .random-info {
     text-align: center;
     padding: 0px;  
+    flex-shrink: 0;
 }
 .random-info>div,div.image-subtext,.random-info>div>div {
     padding: 0px;
@@ -162,9 +168,10 @@ button {
     color: #1f2937;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-img {
+div.image> img {
     border:3px solid #3882f6;
     width: 100px;
     height: 100px;
